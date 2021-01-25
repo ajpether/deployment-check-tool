@@ -10,7 +10,7 @@ Depends on tkinter and reportlab libraries
 
 GUI layout spacing designed for Windows10, may look and behave differently on other OS.
 
-compile py into exe with pyinstaller using command:
+compile py into exe with pyinstaller using below command. urlogo.png should be in same directory as pyinstaller specification file for it to be correctly embedded into generated PDFs.
 pyinstaller ur_deployment_check_tool.spec
 
 changelog:
